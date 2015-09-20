@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+hosted_zone "iideacraft.com." do
+  rrset "iideacraft.com.", "A" do
+    ttl 3600
+    resource_records(
+      "133.242.136.158"
+    )
+  end
+
+  rrset "kancolle.iideacraft.com.", "A" do
+    ttl 3600
+    resource_records(
+      "133.242.136.158"
+    )
+  end
+
+  rrset "slim.iideacraft.com.", "A" do
+    ttl 86400
+    resource_records(
+      "133.242.136.158"
+    )
+  end
+end
