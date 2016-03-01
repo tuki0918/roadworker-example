@@ -9,7 +9,7 @@ hosted_zone "iideacraft.com." do
   end
 
   rrset "kancolle.iideacraft.com.", "A" do
-    ttl 3600
+    ttl 86400
     resource_records(
       "133.242.136.158"
     )
